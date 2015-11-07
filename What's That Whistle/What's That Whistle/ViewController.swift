@@ -9,10 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // MARK: - Methods Override
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.title = "What's that Whistle?"
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "addWhistle")
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Home", style: .Plain, target: nil, action: nil)
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +25,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    // MARK: - Local Methods
+    
+    func addWhistle() {
+        let vc = RecordWhistleViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
 

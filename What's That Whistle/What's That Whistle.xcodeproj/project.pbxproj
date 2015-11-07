@@ -12,6 +12,7 @@
 		652EE5DC1BEB627900060E3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652EE5DA1BEB627900060E3B /* Main.storyboard */; };
 		652EE5DE1BEB627900060E3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 652EE5DD1BEB627900060E3B /* Assets.xcassets */; };
 		652EE5E11BEB627900060E3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652EE5DF1BEB627900060E3B /* LaunchScreen.storyboard */; };
+		6559AF881BEE12300010CCBE /* RecordWhistleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6559AF871BEE12300010CCBE /* RecordWhistleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		652EE5DD1BEB627900060E3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		652EE5E01BEB627900060E3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		652EE5E21BEB627900060E3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6559AF871BEE12300010CCBE /* RecordWhistleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordWhistleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				652EE5D61BEB627900060E3B /* AppDelegate.swift */,
 				652EE5D81BEB627900060E3B /* ViewController.swift */,
+				6559AF871BEE12300010CCBE /* RecordWhistleViewController.swift */,
 				652EE5DA1BEB627900060E3B /* Main.storyboard */,
 				652EE5DD1BEB627900060E3B /* Assets.xcassets */,
 				652EE5DF1BEB627900060E3B /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				652EE5D91BEB627900060E3B /* ViewController.swift in Sources */,
 				652EE5D71BEB627900060E3B /* AppDelegate.swift in Sources */,
+				6559AF881BEE12300010CCBE /* RecordWhistleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +289,7 @@
 				652EE5E71BEB627900060E3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
